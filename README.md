@@ -1,2 +1,2 @@
-# Calculadora-B-sica
+# Calculadora-Basica
 College activities
