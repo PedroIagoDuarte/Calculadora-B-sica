@@ -1,12 +1,12 @@
 package calabreso;
-import java.util.Scanner;
+import java.util.Scanner; //IMPORTANDO LIB DE SCANNER
 public class Calabreso {
 
 	public static void main(String[] args) {
 		
-		Scanner leia = new Scanner(System.in);
+		Scanner leia = new Scanner(System.in); //ATRIBUINDO LIB SCANNER A VARIAVEL "LEIA"
 		int operacao = 0;
-		float resultado;
+		float resultado;              // DETERMINANDO TIPO DAS VARIAVEIS
 		float numero1, numero2;
 
 		System.out.println("CALCULADORA SIMPLES");
@@ -15,7 +15,7 @@ public class Calabreso {
 			System.out.println("\nESCOLHA A OPERAÇÃO DESEJADA:");
 			System.out.println("(1) - Adição");
 			System.out.println("(2) - Subtração");
-			System.out.println("(3) - Divisão");
+			System.out.println("(3) - Divisão");           //CRIANDO LOOP PRO MENU DA CALCULADORA
 			System.out.println("(4) - Multiplicação");
 			System.out.println("(5) - SAIR");
 			operacao = leia.nextInt();
